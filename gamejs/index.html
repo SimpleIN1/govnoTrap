@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body id="body">        
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+
+        <div class="filter">
+            <div id="start_game">
+                <h3>Enter the your name</h3>
+                <div class="position">
+                    <input type="text" id="name_person">
+                </div>
+                <div class="position">
+                    <input id="start_button" onclick="main()" type="submit" value="Start game" class="position start_button">
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="p_t" class="hide">
+            <h3 id="points"></h3>
+            <h1 id="timer"></h1>
+            <input type="submit"class="start_button pos_egg" onclick="pause()" value="Пауза">
+        </div>
+
+        <div id="game_field" class="hide">
+       </div> 
+
+       <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,223 @@
+    // document.getElementById("game_field").appendChild(document.createElement("div").setAttribute("id","box").setAttribute("class","box_img"))
+    // document.getElementById("game_field").appendChild(document.createElement("div").setAttribute("id","box").setAttribute("class","box_img"));
+    // var egg = {
+//     pos_x: Math.floor(Math.random()*450),
+//     pos_y: 10,
+//     id_egg:"egg",
+//     width:50,
+//     height:50,
+//     speed:1,
+//     increese_pos(){
+//         ++this.pos_y;
+//     },
+//     set_draw_random(pos_xx){
+//         document.getElementById(this.id_egg).style.top = (this.pos_y=10)+"px";
+//         document.getElementById(this.id_egg).style.left= (this.pos_x=pos_xx)+"px";
+//     }
+// };
+
+              // let parent = document.getElementById("game_field");
+            // while(parent.firstChild) {
+            //     parent.firstChild.remove();
+            // }
+            // console.log(row_egg);            
+            // console.log(2);  
+    
+    // for(let i=0;i<6;++i){
+    //     row_egg.push(egg);
+    //     row_egg[i].id_egg="egg"+i.toString();
+    //     row_egg[i].pos_x=Math.floor(Math.random()*450);
+    //     row_egg[i].set_draw_random(row_egg[i].pos_x);
+    //     // row_egg[i].speed = Math.floor(Math.random()*2+1);
+    //     console.log(row_egg[i].id_egg);
+    // }
+
+
+
+    /*2*/
+    // setInterval(()=> {    
+    //     while(1){    
+    //         for(let i=0;i<row_egg.length;++i){
+    //             console.log(row_egg[i].id_egg);
+    //             document.getElementById(row_egg[i].id_egg).style.left= row_egg[i].pos_x+"px";
+    //             if(row_egg[i].pos_y <= 370){
+    //                 row_egg[i].pos_y+=row_egg[i].speed;
+    //                 document.getElementById(row_egg[i].id_egg).style.top = row_egg[i].pos_y+"px";
+        
+    //                 if(row_egg[i].pos_y+30>=box.y && row_egg[i].pos_x>=box.x-30 && row_egg[i].pos_x+row_egg[i].width<=box.x+box.width+30){
+    //                     row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+    //                     ++point.count_points;
+    //                 }
+        
+    //             }else{
+    //                 row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+    //                 --point.count_points;
+                    
+    //             }
+    //             point.draw_points();
+    //         }
+    //     }
+    // },1000);
+
+    // for(let i=0;i<row_egg.length;++i){
+    //     console.log(i+" "+row_egg[i].id_egg)
+    // }
+
+    /*3*/
+    // setInterval(()=> {   
+    //     for(let i in row_egg){
+    //         console.log(row_egg[i].pos_x + " "+i+" "+row_egg[i].id_egg);
+    //         document.getElementById(row_egg[i].id_egg).style.left= row_egg[i].pos_x+"px";
+
+    //         if(row_egg[i].pos_y <= 370){
+    //             row_egg[i].pos_y+=row_egg[i].speed;
+    //             document.getElementById(row_egg[i].id_egg).style.top = row_egg[i].pos_y+"px";
+    //             // console.log(row_egg[i].pos_x + " "+i+" "+row_egg[i].id_egg);
+    //             if(row_egg[i].pos_y+30>=box.y && row_egg[i].pos_x>=box.x-30 && row_egg[i].pos_x+row_egg[i].width<=box.x+box.width+30){
+    //                 row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+    //                 ++point.count_points;
+    //             }
+    
+    //         }else{
+    //             row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+    //             --point.count_points;
+    //         }
+    //         point.draw_points();
+    //     }   
+    // },20);
+
+
+
+    /*1*/
+    // setInterval(()=> {
+    //     document.getElementById(egg.id_egg).style.left= egg.pos_x+"px";
+    //     if(egg.pos_y <= 370){
+    //         egg.pos_y+=egg.speed;
+    //         document.getElementById(egg.id_egg).style.top = egg.pos_y+"px";
+
+    //         if(egg.pos_y+30>=box.y && egg.pos_x>=box.x-30 && egg.pos_x+egg.width<=box.x+box.width+30){
+    //             egg.set_draw_random(Math.floor(Math.random()*450));
+    //             ++point.count_points;
+    //         }
+
+    //     }else{
+    //         egg.set_draw_random();
+    //         --point.count_points;
+    //     }
+    //     point.draw_points();
+    // },5);
+
+
+// start_game.onclick()
+
+// main();
+
+
+// create_tag(6);
+
+// var arr = new Array(12,13,14,15,16,17);
+
+// for(let i in arr){
+//     console.log(i);
+// }
+
+
+// document.getElementById(row_egg[i].id_egg).style.left= row_egg[i].pos_x+"px";
+// setInterval(()=> {
+//     if(row_egg[i].pos_y <= 370){
+//         row_egg[i].pos_y+=row_egg[i].speed;
+//         document.getElementById(row_egg[i].id_egg).style.top = row_egg[i].pos_y+"px";
+
+//         if(row_egg[i].pos_y+30>=box.y && row_egg[i].pos_x>=box.x-30 && row_egg[i].pos_x+row_egg[i].width<=box.x+box.width+30){
+//             row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+//             ++point.count_points;
+//         }
+
+//     }else{
+//         row_egg[i].set_draw_random(Math.floor(Math.random()*450));
+//         --point.count_points;
+//     }
+//     point.draw_points();
+// },10);
+
+
+
+// document.getElementById(egg.id_egg).style.left= egg.pos_x+"px";
+// setInterval(()=> {
+//     if(egg.pos_y <= 370){
+//         egg.pos_y+=egg.speed;
+//         document.getElementById(egg.id_egg).style.top = egg.pos_y+"px";
+
+//         if(egg.pos_y+30>=box.y && egg.pos_x>=box.x-30 && egg.pos_x+egg.width<=box.x+box.width+30){
+//             egg.set_draw_random(Math.floor(Math.random()*450));
+//             ++point.count_points;
+//         }
+
+//     }else{
+//         egg.set_draw_random();
+//         --point.count_points;
+//     }
+//     point.draw_points();
+// },5);
+
+
+// var points = 0;
+// var points_h3 = document.getElementById("points");
+
+// var id_box="box";
+// var id_egg="egg"
+
+// var x = 200, y = 355, speed = 10;
+// // var width = ;
+// var pos_y = 10, pos_x=Math.floor(Math.random()*450);
+// document.getElementById(id_egg).style.left= pos_x+"px";
+
+// const main=()=>{ 
+//     setInterval(()=> {
+//         if(pos_y <= 400){
+//             document.getElementById(id_egg).style.top = ++pos_y+"px";
+//             if(pos_y-10>=y && pos_x>=x-30 && pos_x+50<=x+130){
+//                 document.getElementById(id_egg).style.top = (pos_y=10)+"px";
+//                 document.getElementById(id_egg).style.left= (pos_x=Math.floor(Math.random()*450))+"px";
+//                 ++points;
+//             }
+//         }else{
+//             document.getElementById(id_egg).style.top = (pos_y=10)+"px";
+//             document.getElementById(id_egg).style.left= (pos_x=Math.floor(Math.random()*450))+"px";
+//             --points;
+//         }
+//         points_h3.innerHTML=points
+//     },5);
+// }
+
+
+
+// window.addEventListener('keydown',(event)=>{
+//     if(event.code=='ArrowRight' ){
+//         if(x <= 400) {
+//             x+=speed;
+//             document.getElementById(id_box).style.left = x+"px";
+//         }
+//     }
+//     if(event.code=='ArrowLeft'){
+//         if(x >= 20) {
+//             x-=speed;
+//             document.getElementById(id_box).style.left = x+"px";
+//         }
+//     }
+//     if(event.code=='ArrowUp'){
+//         if(y >= 20) {
+//             y-=speed;
+//             document.getElementById(id_box).style.top = y+"px";
+//         }
+//     }
+//     if(event.code=='ArrowDown'){
+//         if(y <= 350) {
+//             y+=speed;
+//             document.getElementById(id_box).style.top = y+"px";
+//         }
+//     }
+// });
+
+
+// main();

@@ -1,0 +1,110 @@
+.game_field{
+    width: 500px;
+    height: 550px;
+    margin-top: -5px;
+    border: 3px solid rgb(117, 116, 116);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+#box{
+    position: absolute;
+    top: 450px;
+    left:200px;
+}
+
+.box_img{
+    width: 100px;
+    height: 50px;
+    background: url("../img/recylebin.png") center no-repeat;
+    background-size: contain;
+}
+
+.pos_egg{
+    position: absolute;
+}
+
+.egg_img{
+    background: url("../img/egg-removebg-preview.png") center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 70px;
+    transform: rotate(360deg);
+}
+
+#points{
+    position: absolute;
+    right: 25%;
+}
+
+#timer{
+    position: absolute;
+    right: 200px;
+}
+
+.hide {
+    display:none !important
+}
+
+.body_color{
+    opacity: .3;
+}
+
+.start_button{
+    font-size:20pt;
+    background-color: rgb(67, 197, 67);
+    border-radius: 10px;
+    border-style:hidden;
+    border-color: aqua;
+}
+
+.start_button:hover{
+    font-size:20pt;
+    background-color: rgb(100, 255, 100);
+    border-radius: 10px;
+    border-style:hidden;
+    border-color: aqua;
+}
+
+body{
+    background: url(http://xgm.guru/files/106/140440/country_field.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.filter{
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#start_game{
+    border: 3px solid rgb(137, 130, 130);
+    /* border-color: rgb(137, 130, 130); */
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 400px;
+
+}
+
+#start_game h3{
+    text-align: center;
+}
+
+#name_person{
+    font-size:20pt; 
+}
+
+.position{
+    /* position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%); */
+    justify-content: center;
+    display: grid;
+    margin-bottom: 10px;
+}
